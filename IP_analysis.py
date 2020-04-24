@@ -29,7 +29,8 @@ def main():
             \|__|\|__|           \|__|\|__|\|__| \|__|\|__|\|__|\|_______|\___/ /       |\_________\|__|\_________\\
                                                                           \|___|/        \|_________|   \|_________|
         ''')
-    ip = input("Please enter the IP address: ")
+    ip = input("[+] Please enter the IP address: ")
+    print("[+] The output is located in output.txt")
     data = abuse(ip)
     IP = data['ipAddress']
     abuseR = data['abuseConfidenceScore']
